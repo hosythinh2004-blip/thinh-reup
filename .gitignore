@@ -1,0 +1,45 @@
+# Secrets and accounts
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*token*
+secrets/
+credentials/
+chrome_profiles/
+browser_profiles/
+account_sessions/
+*.sqlite
+*.sqlite3
+*.db
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.spec
+# Media, models, generated output
+*.mp4
+*.mov
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.onnx
+*.safetensors
+*.pt
+*.pth
+output/
+exports/
+models/
+# OS and IDE local state
+.DS_Store
+Thumbs.db
+.vscode/.ropeproject/
